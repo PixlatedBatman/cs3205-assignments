@@ -1,0 +1,14 @@
+/* Page background */
+html, body {
+  background-color: #0d1117;
+  margin: 0;
+}
+
+/* Markdown content container */
+.markdown-body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  max-width: 980px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
