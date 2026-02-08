@@ -18,7 +18,7 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 ### 1a
 
-![tcptraceroute of IITB site](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }
+[![tcptraceroute of IITB site](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_iitb.png)
 
 ### 1c
 
