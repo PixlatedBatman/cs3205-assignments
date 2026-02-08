@@ -7,10 +7,9 @@ Taken it in the Jan-May 2026 under Prof. Mukulika Maity.
 # Assignment 1
 
 The Report for the Assignment can be 
-<a href="assignment1.pdf" target="_blank" rel="noopener">
+<a href="../static/report/assignment1.pdf" target="_blank" rel="noopener">
   viewed here
 </a>.
-
 
 
 Here are the images and codes so that they can be inspected clearly rather than viewed from a pdf.
@@ -19,7 +18,7 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 ### 1a
 
-Something, lets see
+![tcptraceroute of IITB site](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }
 
 ### 1c
 
