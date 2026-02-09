@@ -128,17 +128,27 @@ rather than viewed from a pdf.</p>
 <h2 id="dns-server">2. DNS Server</h2>
 <h3 id="a-1">2a</h3>
 <div class="image">
-<p><a href="../static/img/assignment1/1d_tcpping_aust_1.png">
-<img src="../static/img/assignment1/1d_tcpping_aust_1.png"> </a></p>
+<p><a href="../static/img/assignment1/2a_IITB.png">
+<img src="../static/img/assignment1/2a_IITB.png"> </a></p>
 </div>
 <div class="image-row">
-<p><a href="../static/img/assignment1/1d_tcpping_aust_1.png">
-<img src="../static/img/assignment1/1d_tcpping_aust_1.png"> </a></p>
-<p><a href="../static/img/assignment1/1d_tcpping_aust_2.png">
-<img src="../static/img/assignment1/1d_tcpping_aust_2.png"> </a></p>
+<p><a href="../static/img/assignment1/2a_AUST1.png">
+<img src="../static/img/assignment1/2a_AUST1.png"> </a></p>
+<p><a href="../static/img/assignment1/2a_AUST2.png">
+<img src="../static/img/assignment1/2a_AUST2.png"> </a></p>
 </div>
 <h3 id="b">2b</h3>
+<div class="image-row">
+<p><a href="../static/img/assignment1/2b_IITB.png">
+<img src="../static/img/assignment1/2b_IITB.png"> </a></p>
+<p><a href="../static/img/assignment1/2b_AUST.png">
+<img src="../static/img/assignment1/2b_AUST.png"> </a></p>
+</div>
 <h2 id="packet-loss">3. Packet Loss</h2>
+<div class="image">
+<p><a href="../static/img/assignment1/3_packetloss.png">
+<img src="../static/img/assignment1/3_packetloss.png"> </a></p>
+</div>
 <h2 id="packet-trace">4. Packet Trace</h2>
 <h3 id="a-2">4a</h3>
 <div class="sourceCode" id="cb1"><pre
@@ -172,6 +182,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a hr
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(c)</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>pcap_info.close()</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4a.png">
+<img src="../static/img/assignment1/4a.png"> </a></p>
+</div>
 <h3 id="b-1">4b</h3>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -196,6 +210,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a hr
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>client<span class="sc">}</span><span class="ss"> made </span><span class="sc">{</span>cnt<span class="sc">}</span><span class="ss"> GET requests&quot;</span>)</span>
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>pcap_info.close()</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4b.png">
+<img src="../static/img/assignment1/4b.png"> </a></p>
+</div>
 <h3 id="c-1">4c</h3>
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -231,6 +249,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a hr
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> client <span class="kw">in</span> streams:</span>
 <span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> <span class="bu">max</span>(end_time[client]) <span class="op">-</span> <span class="bu">min</span>(start_time[client])</span>
 <span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Client </span><span class="sc">{</span>client<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>t<span class="sc">:.2f}</span><span class="ss">s&quot;</span>)</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4c.png">
+<img src="../static/img/assignment1/4c.png"> </a></p>
+</div>
 <h3 id="d-1">4d</h3>
 <div class="sourceCode" id="cb4"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -282,6 +304,11 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a hr
 <span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
 <span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.show()</span></span>
 <span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&quot;4d_plot_download_times.png&quot;</span>, transparent<span class="op">=</span><span class="va">True</span>, bbox_inches<span class="op">=</span><span class="st">&quot;tight&quot;</span>, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4d_plot_download_times.png">
+<img src="../static/img/assignment1/4d_plot_download_times.png">
+</a></p>
+</div>
 <h3 id="e">4e</h3>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -325,6 +352,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Web Server:&quot;</span>, server_header)</span>
 <span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>pcap_info.close()</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4e.png">
+<img src="../static/img/assignment1/4e.png"> </a></p>
+</div>
 <h3 id="f">4f</h3>
 <div class="sourceCode" id="cb6"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -356,6 +387,12 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a hr
 <span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;  HTTP type       : Non-persistent</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
 <span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;  HTTP type       : Persistent</span><span class="ch">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<div class="image-row">
+<p><a href="../static/img/assignment1/4f_1.png">
+<img src="../static/img/assignment1/4f_1.png"> </a></p>
+<p><a href="../static/img/assignment1/4f_2.png">
+<img src="../static/img/assignment1/4f_2.png"> </a></p>
+</div>
 <h3 id="g">4g</h3>
 <div class="sourceCode" id="cb7"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyshark</span>
@@ -409,6 +446,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a hr
 <span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>    intervals <span class="op">=</span> <span class="bu">list</span>(streams.values())</span>
 <span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> intervals <span class="kw">and</span> max_parallel(intervals):</span>
 <span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Client </span><span class="sc">{</span>client<span class="sc">}</span><span class="ss">: &quot;</span>, <span class="ss">f&quot;</span><span class="sc">{</span>max_parallel(intervals)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="image">
+<p><a href="../static/img/assignment1/4g.png">
+<img src="../static/img/assignment1/4g.png"> </a></p>
+</div>
 <h2 id="wireshark">5. Wireshark</h2>
 <h3 id="a-3">5a</h3>
 <div class="sourceCode" id="cb8"><pre
@@ -445,8 +486,30 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a hr
 <span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
 <span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.show()</span></span>
 <span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&quot;5a_plot_throughput.png&quot;</span>, transparent<span class="op">=</span><span class="va">True</span>, bbox_inches<span class="op">=</span><span class="st">&quot;tight&quot;</span>, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
+<div class="image-row">
+<p><a href="../static/img/assignment1/5a.png">
+<img src="../static/img/assignment1/5a.png"> </a></p>
+<p><a href="../static/img/assignment1/5a_plot_throughput.png">
+<img src="../static/img/assignment1/5a_plot_throughput.png"> </a></p>
+</div>
 <h3 id="b-2">5b</h3>
+<div class="image-row">
+<p><a href="../static/img/assignment1/5b_1.png">
+<img src="../static/img/assignment1/5b_1.png"> </a></p>
+<p><a href="../static/img/assignment1/5b_2.png">
+<img src="../static/img/assignment1/5b_2.png"> </a></p>
+</div>
+<div class="image-row">
+<p><a href="../static/img/assignment1/5b_3.png">
+<img src="../static/img/assignment1/5b_3.png"> </a></p>
+<p><a href="../static/img/assignment1/5b_4.png">
+<img src="../static/img/assignment1/5b_4.png"> </a></p>
+</div>
 <h3 id="c-2">5c</h3>
+<div class="image">
+<p><a href="../static/img/assignment1/5c.png">
+<img src="../static/img/assignment1/5c.png"> </a></p>
+</div>
 </div>
 </body>
 </html>

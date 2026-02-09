@@ -68,29 +68,47 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 <div class="image">
 
-  <a href="../static/img/assignment1/1d_tcpping_aust_1.png">
-    <img src="../static/img/assignment1/1d_tcpping_aust_1.png">
+  <a href="../static/img/assignment1/2a_IITB.png">
+    <img src="../static/img/assignment1/2a_IITB.png">
   </a>
-  
+
 </div>
-
-
 
 <div class="image-row">
 
-  <a href="../static/img/assignment1/1d_tcpping_aust_1.png">
-    <img src="../static/img/assignment1/1d_tcpping_aust_1.png">
+  <a href="../static/img/assignment1/2a_AUST1.png">
+    <img src="../static/img/assignment1/2a_AUST1.png">
   </a>
 
-  <a href="../static/img/assignment1/1d_tcpping_aust_2.png">
-    <img src="../static/img/assignment1/1d_tcpping_aust_2.png">
+  <a href="../static/img/assignment1/2a_AUST2.png">
+    <img src="../static/img/assignment1/2a_AUST2.png">
   </a>
 
 </div>
 
 ### 2b
 
+<div class="image-row">
+
+  <a href="../static/img/assignment1/2b_IITB.png">
+    <img src="../static/img/assignment1/2b_IITB.png">
+  </a>
+
+  <a href="../static/img/assignment1/2b_AUST.png">
+    <img src="../static/img/assignment1/2b_AUST.png">
+  </a>
+
+</div>
+
 ## 3. Packet Loss
+
+<div class="image">
+
+  <a href="../static/img/assignment1/3_packetloss.png">
+    <img src="../static/img/assignment1/3_packetloss.png">
+  </a>
+
+</div>
 
 ## 4. Packet Trace
 
@@ -100,11 +118,27 @@ Here are the images and codes so that they can be inspected clearly rather than 
 {{CODE:4_a.py}}
 ```
 
+<div class="image">
+
+  <a href="../static/img/assignment1/4a.png">
+    <img src="../static/img/assignment1/4a.png">
+  </a>
+
+</div>
+
 ### 4b
 
 ```python
 {{CODE:4_b.py}}
 ```
+
+<div class="image">
+
+  <a href="../static/img/assignment1/4b.png">
+    <img src="../static/img/assignment1/4b.png">
+  </a>
+
+</div>
 
 ### 4c
 
@@ -112,11 +146,27 @@ Here are the images and codes so that they can be inspected clearly rather than 
 {{CODE:4_c.py}}
 ```
 
+<div class="image">
+
+  <a href="../static/img/assignment1/4c.png">
+    <img src="../static/img/assignment1/4c.png">
+  </a>
+
+</div>
+
 ### 4d
 
 ```python
 {{CODE:4_d.py}}
 ```
+
+<div class="image">
+
+  <a href="../static/img/assignment1/4d_plot_download_times.png">
+    <img src="../static/img/assignment1/4d_plot_download_times.png">
+  </a>
+
+</div>
 
 ### 4e
 
@@ -124,17 +174,45 @@ Here are the images and codes so that they can be inspected clearly rather than 
 {{CODE:4_e.py}}
 ```
 
+<div class="image">
+
+  <a href="../static/img/assignment1/4e.png">
+    <img src="../static/img/assignment1/4e.png">
+  </a>
+
+</div>
+
 ### 4f
 
 ```python
 {{CODE:4_f.py}}
 ```
 
+<div class="image-row">
+
+  <a href="../static/img/assignment1/4f_1.png">
+    <img src="../static/img/assignment1/4f_1.png">
+  </a>
+
+  <a href="../static/img/assignment1/4f_2.png">
+    <img src="../static/img/assignment1/4f_2.png">
+  </a>
+
+</div>
+
 ### 4g
 
 ```python
 {{CODE:4_g.py}}
 ```
+
+<div class="image">
+
+  <a href="../static/img/assignment1/4g.png">
+    <img src="../static/img/assignment1/4g.png">
+  </a>
+
+</div>
 
 ## 5. Wireshark
 
@@ -144,11 +222,52 @@ Here are the images and codes so that they can be inspected clearly rather than 
 {{CODE:5_a.py}}
 ```
 
+<div class="image-row">
+
+  <a href="../static/img/assignment1/5a.png">
+    <img src="../static/img/assignment1/5a.png">
+  </a>
+
+  <a href="../static/img/assignment1/5a_plot_throughput.png">
+    <img src="../static/img/assignment1/5a_plot_throughput.png">
+  </a>
+
+</div>
+
 ### 5b
 
+<div class="image-row">
 
+  <a href="../static/img/assignment1/5b_1.png">
+    <img src="../static/img/assignment1/5b_1.png">
+  </a>
+
+  <a href="../static/img/assignment1/5b_2.png">
+    <img src="../static/img/assignment1/5b_2.png">
+  </a>
+
+</div>
+
+<div class="image-row">
+
+  <a href="../static/img/assignment1/5b_3.png">
+    <img src="../static/img/assignment1/5b_3.png">
+  </a>
+
+  <a href="../static/img/assignment1/5b_4.png">
+    <img src="../static/img/assignment1/5b_4.png">
+  </a>
+
+</div>
 
 ### 5c
 
+<div class="image">
+
+  <a href="../static/img/assignment1/5c.png">
+    <img src="../static/img/assignment1/5c.png">
+  </a>
+
+</div>
 
 </div>
