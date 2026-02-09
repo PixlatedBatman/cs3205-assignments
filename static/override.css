@@ -12,3 +12,14 @@ html, body {
   margin: 2rem auto;
   padding: 2rem;
 }
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.image-row img {
+  width: 100%;
+  cursor: zoom-in;
+}

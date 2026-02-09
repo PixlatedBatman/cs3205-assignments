@@ -1,3 +1,7 @@
+---
+pagetitle: Assignment 1
+---
+
 <div class="markdown-body">
 
 # CS3205: Introduction to Computer Networks
@@ -18,9 +22,25 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 ### 1a
 
-[![tcptraceroute of IITB site](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_iitb.png)
+[![tcptraceroute of IITB](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_iitb.png)
+
+[![tcptraceroute of AUST](../static/img/assignment1/1a_tcptraceroute_aust.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_aust.png)
 
 ### 1c
+
+<div class="image-row">
+
+  <a href="../static/img/assignment1/1a_tcptraceroute_aust.png">
+    <img src="../static/img/assignment1/1a_tcptraceroute_aust.png">
+  </a>
+
+  <a href="../static/img/assignment1/1a_tcptraceroute_aust.png">
+    <img src="../static/img/assignment1/1a_tcptraceroute_aust.png">
+  </a>
+
+</div>
+
+
 
 ### 1d
 
@@ -36,23 +56,57 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 ### 4a
 
+```python
+{{CODE:4_a.py}}
+```
+
 ### 4b
+
+```python
+{{CODE:4_b.py}}
+```
 
 ### 4c
 
+```python
+{{CODE:4_c.py}}
+```
+
 ### 4d
+
+```python
+{{CODE:4_d.py}}
+```
 
 ### 4e
 
+```python
+{{CODE:4_e.py}}
+```
+
 ### 4f
 
+```python
+{{CODE:4_f.py}}
+```
+
 ### 4g
+
+```python
+{{CODE:4_g.py}}
+```
 
 ## 5. Wireshark
 
 ### 5a
 
+```python
+{{CODE:5_a.py}}
+```
+
 ### 5b
+
+
 
 ### 5c
 
