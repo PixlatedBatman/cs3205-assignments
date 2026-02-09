@@ -23,3 +23,12 @@ html, body {
   width: 100%;
   cursor: zoom-in;
 }
+
+.image {
+  width: 50%;
+  margin: 0 auto; /* center it */
+}
+.image img {
+  width: 100%;
+}
+

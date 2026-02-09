@@ -22,16 +22,10 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 ### 1a
 
-[![tcptraceroute of IITB](../static/img/assignment1/1a_tcptraceroute_iitb.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_iitb.png)
-
-[![tcptraceroute of AUST](../static/img/assignment1/1a_tcptraceroute_aust.png){ width=75% }](../static/img/assignment1/1a_tcptraceroute_aust.png)
-
-### 1c
-
 <div class="image-row">
 
-  <a href="../static/img/assignment1/1a_tcptraceroute_aust.png">
-    <img src="../static/img/assignment1/1a_tcptraceroute_aust.png">
+  <a href="../static/img/assignment1/1a_tcptraceroute_iitb.png">
+    <img src="../static/img/assignment1/1a_tcptraceroute_iitb.png">
   </a>
 
   <a href="../static/img/assignment1/1a_tcptraceroute_aust.png">
@@ -40,13 +34,59 @@ Here are the images and codes so that they can be inspected clearly rather than 
 
 </div>
 
+### 1c
 
+<div class="image-row">
+
+  <a href="../static/img/assignment1/1c_tcpping_iitb_1.png">
+    <img src="../static/img/assignment1/1c_tcpping_iitb_1.png">
+  </a>
+
+  <a href="../static/img/assignment1/1c_tcpping_iitb_2.png">
+    <img src="../static/img/assignment1/1c_tcpping_iitb_2.png">
+  </a>
+
+</div>
 
 ### 1d
+
+<div class="image-row">
+
+  <a href="../static/img/assignment1/1d_tcpping_aust_1.png">
+    <img src="../static/img/assignment1/1d_tcpping_aust_1.png">
+  </a>
+
+  <a href="../static/img/assignment1/1d_tcpping_aust_2.png">
+    <img src="../static/img/assignment1/1d_tcpping_aust_2.png">
+  </a>
+
+</div>
 
 ## 2. DNS Server
 
 ### 2a
+
+<div class="image">
+
+  <a href="../static/img/assignment1/1d_tcpping_aust_1.png">
+    <img src="../static/img/assignment1/1d_tcpping_aust_1.png">
+  </a>
+  
+</div>
+
+
+
+<div class="image-row">
+
+  <a href="../static/img/assignment1/1d_tcpping_aust_1.png">
+    <img src="../static/img/assignment1/1d_tcpping_aust_1.png">
+  </a>
+
+  <a href="../static/img/assignment1/1d_tcpping_aust_2.png">
+    <img src="../static/img/assignment1/1d_tcpping_aust_2.png">
+  </a>
+
+</div>
 
 ### 2b
 
