@@ -1,26 +1,44 @@
 #!/usr/bin/env bash
 set -e
 
-INPUT="src/assignment1.md"
-OUTPUT_MD="/tmp/assignment1_expanded.md"
-OUTPUT_HTML="public/assignment1.html"
-CODE_DIR="static/codes/assignment1"
+SRC_DIR="src"
+OUT_DIR="public"
+CODE_BASE_DIR="static/codes"
 
-cp "$INPUT" "$OUTPUT_MD"
+CSS1="../static/style.css"
+CSS2="../static/override.css"
 
-for file in "$CODE_DIR"/*.py; do
-  name=$(basename "$file")
+mkdir -p "$OUT_DIR"
 
-  sed -i "/{{CODE:$name}}/{
-    r $file
-    d
-  }" "$OUTPUT_MD"
+for md in "$SRC_DIR"/*.md; do
+  name=$(basename "$md" .md)
+
+  OUTPUT_MD="/tmp/${name}_expanded.md"
+  OUTPUT_HTML="$OUT_DIR/${name}.html"
+
+  cp "$md" "$OUTPUT_MD"
+
+  # If a matching code directory exists, expand code placeholders
+  CODE_DIR="$CODE_BASE_DIR/$name"
+  if [[ -d "$CODE_DIR" ]]; then
+    for file in "$CODE_DIR"/*.py; do
+      [[ -e "$file" ]] || continue
+      fname=$(basename "$file")
+
+      sed -i "/{{CODE:$fname}}/{
+        r $file
+        d
+      }" "$OUTPUT_MD"
+    done
+  fi
+
+  pandoc "$OUTPUT_MD" \
+    --standalone \
+    --syntax-highlighting pygments \
+    --mathjax \
+    --css "$CSS1" \
+    --css "$CSS2" \
+    -o "$OUTPUT_HTML"
+
+  echo "Built: $OUTPUT_HTML"
 done
-
-pandoc "$OUTPUT_MD" \
-  --standalone \
-  --syntax-highlighting pygments \
-  --mathjax \
-  --css ../static/style.css \
-  --css ../static/override.css \
-  -o "$OUTPUT_HTML"

@@ -8,6 +8,8 @@ pagetitle: Assignment 1
 
 Taken it in the Jan-May 2026 under Prof. Mukulika Maity.
 
+Work of **Karthik Kashyap K (EE23B030)**.
+
 # Assignment 1
 
 The Report for the Assignment can be 
