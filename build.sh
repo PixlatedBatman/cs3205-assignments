@@ -21,8 +21,8 @@ for md in "$SRC_DIR"/*.md; do
   # If a matching code directory exists, expand code placeholders
   CODE_DIR="$CODE_BASE_DIR/$name"
   if [[ -d "$CODE_DIR" ]]; then
-    for file in "$CODE_DIR"/*.py; do
-      [[ -e "$file" ]] || continue
+    for file in "$CODE_DIR"/*; do
+      [[ -f "$file" ]] || continue
       fname=$(basename "$file")
 
       sed -i "/{{CODE:$fname}}/{
