@@ -12,7 +12,9 @@ Work of **Karthik Kashyap K (EE23B030)**.
 
 # Assignment 3
 
-The Report for the Assignment can be 
+This website is currently under development, and will be updated soon (Monday night by the latest) due to me being on a Trip in Kochi (Kerala).
+
+<!-- The Report for the Assignment can be 
 <a href="../static/report/assignment3.pdf" target="_blank" rel="noopener">
   viewed here
 </a>.
@@ -20,4 +22,4 @@ The Report for the Assignment can be
 
 Here are the images and codes so that they can be inspected clearly rather than viewed from a pdf.
 
-</div>
+</div> -->
