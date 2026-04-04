@@ -20,6 +20,6 @@ This website is currently under development, and will be updated soon (Monday ni
 </a>.
 
 
-Here are the images and codes so that they can be inspected clearly rather than viewed from a pdf.
+Here are the images and codes so that they can be inspected clearly rather than viewed from a pdf. -->
 
-</div> -->
+</div>
